@@ -1,0 +1,124 @@
+h1 {
+    padding-left: 400px;
+    padding-bottom: 60px;
+  }
+
+  footer {
+    background-color:#16404D;
+            color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+
+  .footer-contact,
+  .footer-links,
+  .footer-social {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+  }
+
+  .footer-social a img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  .wajahat{
+background-color:#16404D;
+}
+  .nav-link {
+    color: #fff;
+  }
+
+  .card-container {
+    perspective: 1200px;
+
+  }
+
+  .card {
+    border: #16404D solid 2px;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    /* Bounces up */
+    animation: bounce 0.5s ease forwards;
+    /* Bouncing animation */
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.3);
+    /* Shadow grows */
+  }
+
+  .card-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgba(20, 8, 8, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .card-front {
+    /* background-color: #333; */
+    transform: scale(1);
+  }
+
+
+
+  .card:hover .card-front {
+    transform: scale(0.95);
+    /* Shrink the front slightly */
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+      /* Start at the original position */
+    }
+
+    50% {
+      transform: translateY(-15px);
+      /* Go up */
+    }
+
+
+  }

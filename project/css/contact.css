@@ -1,0 +1,151 @@
+
+    /* Basic Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .navbar h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    .navbar nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .navbar nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    .navbar nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+    
+    .navbar nav ul li a:hover {
+        color:#16404D;
+    }
+    
+    .contact-us {
+        background-color: #fff;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    
+    .contact-us h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .contact-us p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #666;
+        margin-bottom: 40px;
+    }
+    
+    
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    form label {
+        display: block;
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+        color: #333;
+    }
+    
+    form input, form textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+    
+    form input:focus, form textarea:focus {
+        border-color: #16404D ;
+        outline: none;
+    }
+    
+    form .btn-submit {
+        background-color: #16404D;
+        color: #fff;
+        padding: 12px 20px;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    form .btn-submit:hover {
+        background-color:#16404D;
+    }
+    footer {
+        background-color:#16404D;
+            color: white; 
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    
+    .footer-contact, .footer-links, .footer-social {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+    }
+    
+    .footer-links ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+    }
+    
+    
+    
+    .footer-bottom {
+        margin-top: 20px;
+    }
+    .wajahat{
+        background-color:#16404D;
+        }
+        .nav-link{
+        color: #fff;
+        }
+        .btn{
+            background-color:#16404D;
+            color: white;
+        }
